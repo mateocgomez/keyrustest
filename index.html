@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Keyrus test</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+        <div class="alerts">
+            <div class="container">
+                <div class="row">
+                    <div class="alert alert-danger alerts--interaction col-md-12" role="alert">
+                        <i class="fas fa-times"></i>
+                        <span>Digite seu email e senha</span>
+                    </div>
+
+                    <div class="alert alert-success alerts--interaction col-md-12" role="alert">
+                        <i class="fas fa-check"></i>
+                        <span>Você foi logado com sucesso</span>
+                    </div>
+                               
+                            
+                </div>
+            </div>
+        </div>
+    
+
+    <main class="login">
+        <div class="container">
+           <div class="row">
+            <div class="login--materialish">    
+                <h1 class="login--materialish__title">Entrar na minha conta</h1>
+                <form action="/signup" method="post">
+                        <div class="login--user form-group">
+                            <input class="form-control " type="text" id="email" name="email" placeholder="Email">
+                            
+                        </div>
+                        <div class="login--pass form-group">
+                                <input class="form-control" type="password" id="password" name="password" placeholder="Senha">
+                        </div>
+                        <a href="#" class=" login-materialish__button btn btn-primary">Entrar</a>
+                        <div class="py-3">
+                                <input  type="checkbox" value="" id="defaultCheck1">
+                                <label class="login__text" for="defaultCheck1">Mantenha-me conectado</label>
+                        </div>
+                </form>
+            </div>    
+           </div>
+        </div>
+    </main>
+
+    <div class="container">
+        <div class="row">
+            <div class="finaltext py-4">
+                <span class="finaltext__important">Precisa de uma conta? <a href="">Inscrever-se</a></span>
+                <span class="finaltext__forget">Esqueceu sua senha? <a href="">Clique aqui.</a></span>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer " role="contentinfo">
+        <div class="container">
+         <div class="row"> 
+             <div class="footerstyle">
+                    <div class="footerstyle--info" >  
+                            <i class="fas fa-info"></i>
+                    </div>
+                        <div class="footerstyle--mark m-1" >
+                                <i>Keyrus</i>
+                        </div>
+             </div>
+        </div>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>

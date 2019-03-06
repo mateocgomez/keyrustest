@@ -1,0 +1,24 @@
+{
+  "name": "keyrustest",
+  "version": "1.0.0",
+  "description": "Project for keyyrus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateocgomez/keyrustest.git"
+  },
+  "author": "Mateo Castano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateocgomez/keyrustest/issues"
+  },
+  "homepage": "https://github.com/mateocgomez/keyrustest#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-sass": "^1.0.0"
+  }
+}
