@@ -17,12 +17,12 @@
         <div class="alerts py-4">
             <div class="container">
                 <div class="row">
-                    <div class="alert alert-danger alerts--interaction col-md-12" role="alert">
+                    <div id="danger" class="alert alert-danger alerts--interaction col-md-12" role="alert">
                         <i class="fas fa-times"></i>
                         <span>Digite seu email e senha</span>
                     </div>
 
-                    <div class="alert alert-success alerts--interaction col-md-12" role="alert">
+                    <div id="sucess" class="alert alert-success alerts--interaction col-md-12" role="alert">
                         <i class="fas fa-check"></i>
                         <span>Você foi logado com sucesso</span>
                     </div>
@@ -40,13 +40,13 @@
                 <h1 class="login--materialish__title">Entrar na minha conta</h1>
                 <form action="/signup" method="post">
                         <div class="login--user form-group">
-                            <input class="form-control " type="text" id="email" name="email" placeholder="Email">
+                            <input class="form-control " type="text" id="user" name="user" placeholder="Email">
                             
                         </div>
                         <div class="login--pass form-group">
                                 <input class="form-control" type="password" id="password" name="password" placeholder="Senha">
                         </div>
-                        <a href="#" class=" login-materialish__button btn btn-primary">Entrar</a>
+                        <a href="#" id="entrar" class=" login-materialish__button btn btn-primary">Entrar</a>
                         <div class="py-3">
                                 <input  type="checkbox" value="" id="defaultCheck1">
                                 <label class="login__text" for="defaultCheck1">Mantenha-me conectado</label>
@@ -60,8 +60,8 @@
     <div class="container">
         <div class="row">
             <div class="finaltext py-4">
-                <span class="finaltext__important">Precisa de uma conta? <a href="">Inscrever-se</a></span>
-                <span class="finaltext__forget">Esqueceu sua senha? <a href="">Clique aqui.</a></span>
+                <span class="finaltext__important">Precisa de uma conta? <a href="https://mateocgomez.github.io/">Inscrever-se</a></span>
+                <span class="finaltext__forget">Esqueceu sua senha? <a href="https://mateocgomez.github.io/">Clique aqui.</a></span>
             </div>
         </div>
     </div>
@@ -85,5 +85,8 @@
 
 
 </body>
+
+<script src="js/jquery-3.3.1.js" type="text/javascript" ></script>
+<script src="js/acc.login.js" type="text/javascript"></script>
 
 </html>
