@@ -5,7 +5,6 @@ body {
   font-family: "Myriad Pro";
 }
 .alerts--interaction {
-  display: flex;
   justify-content: space-between;
   display: none;
 }

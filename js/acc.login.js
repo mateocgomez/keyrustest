@@ -8,13 +8,17 @@ $(document).ready(function () {
     let pass = $('#password').val();
 
     if(user == "" || !expre.test(user) || pass == ""){
-        $('#danger').css("display", "block");
+        $('#danger').css("display", "flex");
         return false;
         
     } else {
-        $('#sucess').css("display", "block");
+        $('#sucess').css("display", "flex");
     }
 
+   }),
+
+   $('#close').on('click', function () {
+    $('#danger').css("display", "none");
    })
     
 });
